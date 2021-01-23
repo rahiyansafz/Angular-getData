@@ -1,0 +1,12 @@
+/* See: https://www.infragistics.com/products/ignite-ui-angular/angular/components/themes.html */
+
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import "~igniteui-angular/core/styles/themes/index";
+
+$primary: #731963 !default;
+$secondary: #ce5712 !default;
+
+$app-palette: igx-palette($primary, $secondary);
+
+@include igx-core();
+@include igx-theme($app-palette);
